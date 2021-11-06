@@ -1,0 +1,22 @@
+//GET http://localhost:8000/api/block/BTC/000000000000034a7dedef4a161fa058a2d67a173a90155f3a2fe6fc132e0ebf
+//Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjF9.XoYiCGuBzmCE9BcEhJ8-7sT47d55SeYvBb4Mo7OQkvo
+
+GET http://localhost:8000/api/transaction/BTC/dbaf14e1c476e76ea05a8b71921a46d6b06f0a950f17c5f9f1a03b8fae467f10
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySWQiOjF9.XoYiCGuBzmCE9BcEhJ8-7sT47d55SeYvBb4Mo7OQkvo
+
+
+//POST http://localhost:8000/api/user/new
+# Content-Type: application/json
+
+# {
+#     "email" : "a@a.com",
+#     "password" : "Asif@123"
+# }
+
+POST http://localhost:8000/api/user/login
+Content-Type: application/json
+
+{
+    "email" : "a@a.com",
+    "password" : "Asif@123"
+}
